@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Consolas, monospace;
+}
+
+body {
+  background: radial-gradient(circle at top, #04110a, #000);
+  color: #00ff99;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 380px;
+  background: rgba(0,0,0,0.85);
+  border: 1px solid #00ff99;
+  box-shadow: 0 0 25px rgba(0,255,153,0.5);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 10px #00ff99;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.mail-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020d08;
+  border: 1px dashed #00ff99;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.mail-box button {
+  background: transparent;
+  border: none;
+  color: #00ff99;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.generate {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #00ff99, #00ccff);
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.generate:hover {
+  box-shadow: 0 0 15px #00ff99;
+}
+
+.inbox {
+  background: #010805;
+  border: 1px solid #00ff99;
+  padding: 10px;
+  height: 180px;
+  overflow-y: auto;
+}
+
+.inbox h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}

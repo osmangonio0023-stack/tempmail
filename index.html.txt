@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dark Temp Mail</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔐 TEMP MAIL</h1>
+  <p class="subtitle">Anonymous • Secure • Instant</p>
+
+  <div class="mail-box">
+    <span id="email">click generate</span>
+    <button onclick="copyMail()">📋</button>
+  </div>
+
+  <button class="generate" onclick="createMail()">Generate Email</button>
+
+  <div class="inbox">
+    <h3>📥 Inbox</h3>
+    <div id="messages">No messages yet...</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
